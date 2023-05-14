@@ -9,6 +9,10 @@ export default defineConfig({
 
   // 主题配置
   themeConfig: {
+    // 搜索
+    search: {
+      provider: 'local'
+    },
     // 导航配置，头部导航
     nav: [
       { text: '首页', link: '/' },
