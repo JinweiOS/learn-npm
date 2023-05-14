@@ -1,0 +1,8 @@
+名字 学习npm
+版本 1.0.0
+描述  
+入口文件 index.js
+可运行脚本  测试 xxxxx
+          运行 学习学习
+作者  jinweios
+许可证 ISC

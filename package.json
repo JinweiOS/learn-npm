@@ -1,0 +1,15 @@
+{
+  "name": "learn-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node -v",
+    "git": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.2"
+  }
+}
