@@ -7,20 +7,23 @@ export default defineConfig({
   // 描述
   description: "I Want To Share Everything with you!",
 
-  // 主题欸之
+  // 主题配置
   themeConfig: {
     // 导航配置，头部导航
     nav: [
       { text: '首页', link: '/' },
-      { text: '我想说', link: '/markdown-examples' }
+      { text: '我想说', link: '/doc/latest' }
     ],
 
+    // 侧标栏
     sidebar: [
       {
-        text: 'Examples',
+        text: '这些天我想说的',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '第一篇博客', link: '/doc/latest' },
+          // '/'在此处代表的是项目的根目录
+          { text: 'MD语法参考', link: '/doc/markdown-examples' },
+          { text: '运行时API参考', link: '/doc/api-examples' }
         ]
       }
     ],
@@ -28,6 +31,13 @@ export default defineConfig({
     // 社交帐号
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JinweiOS' }
-    ]
+    ],
+
+
+    // 脚注配置
+    footer: {
+      message: '我带愉悦的心情🍀创建了这个网站',
+      copyright: 'Copyright © 2023-present JinweiOS'
+    }
   }
 })
