@@ -1,0 +1,20 @@
+{
+  "layout": "home",
+  "hero": {
+    "name": "JinweiOS's Blog",
+    "text": "I Want To Share Everything with you!",
+    "tagline": "Intrested in Frontend, Backend and Web3!",
+    "actions": [
+      {
+        "theme": "brand",
+        "text": "Markdown Examples",
+        "link": "/markdown-examples"
+      },
+      {
+        "theme": "alt",
+        "text": "API Examples",
+        "link": "/api-examples"
+      }
+    ]
+  }
+}
