@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "node": "node -v",
-    "git": "git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^3.3.2"
   }
 }
