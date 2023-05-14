@@ -12,7 +12,7 @@ export default defineConfig({
     // 导航配置，头部导航
     nav: [
       { text: '首页', link: '/' },
-      { text: '我想说', link: '/doc/latest' }
+      { text: '最近感想', link: '/doc/latest' }
     ],
 
     // 侧标栏
